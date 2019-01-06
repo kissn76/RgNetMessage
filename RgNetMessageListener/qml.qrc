@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>listener.qml</file>
+    </qresource>
+</RCC>

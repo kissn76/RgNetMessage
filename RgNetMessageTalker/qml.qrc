@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>talker.qml</file>
+        <file>Numpad.qml</file>
+    </qresource>
+</RCC>
