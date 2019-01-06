@@ -1,9 +1,8 @@
 #include "listener.h"
 #include "socketthread.h"
 
-Listener::Listener(QQuickWindow *listenerWindow) : QTcpServer(listenerWindow)
+Listener::Listener(QQuickWindow *listenerWindow) : listenerWindow(listenerWindow)
 {
-    this->listenerWindow = listenerWindow;
 }
 
 Listener::~Listener()

@@ -11,7 +11,7 @@ class Listener : public QTcpServer
     Q_OBJECT
 public:
     Listener(QQuickWindow *listenerWindow = nullptr);
-    ~Listener();
+    ~Listener() override;
     void startServer();
 
 signals:
