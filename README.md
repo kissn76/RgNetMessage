@@ -1,2 +1,2 @@
 # RgNetMessage
-C++ / QT tesztfeladat 2 (alapszint)
+C++ / QT tesztfeladat 2
